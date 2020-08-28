@@ -1,6 +1,24 @@
-MSVC 编译器选择->
+
+1. MSVC 编译器选择
+
+ Visual Studio 2019 Release - amd64: Using compilers for 16.7.1 (x64 architecture)
+ Visual Studio 2019 Release - amd64_x86: Using compilers for 16.7.1 (x64_x86 architecture)
+ Visual Studio 2019 Release - amd64_arm: Using compilers for 16.7.1 (x64_arm architeture)
+ Visual Studio 2019 Release - amd64_arm64: Using compilers for 16.7.1 (x64_arm64 architecture)
+
+ Visual Studio 2019 Release - x86: Using compilers for 16.7.1 (x86 architecture)
+ Visual Studio 2019 Release - x86_amd64: Using compilers for 16.7.1 (x86_x64 architecture) (*)
+ Visual Studio 2019 Release - x86_arm: Using compilers for 16.7.1 (x86_arm architecture)
+ Visual Studio 2019 Release - x86_arm64: Using compilers for 16.7.1 (x86_arm64 architecture)
+
+ F1->CMake: Quick Start/Select a Kit
+ 选择 x86_amd64
+
+2. CMakeLists.txt
+ 备份 CMakeLists.txt -> CMakeLists.txt.bak
+
+ cmake --help
+
+ cmake .
+
  
- x86：编译器为x86版本，输出文件为x86。
- amd64_x86：编译器为amd64版本，输出文件为x86。
- amd64：编译器为amd64版本，输出文件为amd64。
- x86_amd64：编译器为x86版本，输出文件为amd64。
